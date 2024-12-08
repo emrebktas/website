@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Foody</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Lora:wght@600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <small><i class="fa fa-map-marker-alt me-2"></i>Kocaeli, Turkiye</small>
+                <small class="ms-4"><i class="fa fa-envelope me-2"></i>manav@gmail.com</small>
+            </div>
+            <div class="col-lg-6 px-5 text-end">
+                <small>Bizi takip edin:</small>
+                <a class="text-body ms-3" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a class="text-body ms-3" href="https://x.com/home"><i class="fab fa-twitter"></i></a>
+                <a class="text-body ms-3" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin-in"></i></a>
+                <a class="text-body ms-3" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <h1 class="fw-bold text-primary m-0">F<span class="text-secondary">oo</span>dy</h1>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active">Anasayfa</a>
+                    <a href="about.html" class="nav-item nav-link">Hakkımızda</a>
+                    <a href="product.html" class="nav-item nav-link">Ürünler</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Diğerleri</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="blog.html" class="dropdown-item">Duyurular</a>
+                            <a href="feature.html" class="dropdown-item">Bizi biz yapanlar</a>
+                            <a href="testimonial.html" class="dropdown-item">Müşteri yorumları</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Bize ulaşın</a>
+                </div>
+                <div class="d-none d-lg-flex ms-2">
+                    <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
+                        <small class="fa fa-search text-body"></small>
+                    </a>
+                    <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
+                        <small class="fa fa-user text-body"></small>
+                    </a>
+                    <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
+                        <small class="fa fa-shopping-bag text-body"></small>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-7">
+                                    <h1 class="display-2 mb-5 animated slideInDown">Sağlık için Organik tüketin!</h1>
+                                    <a href="product.html" class="btn btn-primary rounded-pill py-sm-3 px-sm-5">Ürünler</a>
+                                    <a href="blog.html" class="btn btn-secondary rounded-pill py-sm-3 px-sm-5 ms-3">Duyurular</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-7">
+                                    <h1 class="display-2 mb-5 animated slideInDown">Doğal Gıdanın adresi!</h1>
+                                    <a href="" class="btn btn-primary rounded-pill py-sm-3 px-sm-5">Ürünler</a>
+                                    <a href="" class="btn btn-secondary rounded-pill py-sm-3 px-sm-5 ms-3">Servisler</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Önceki</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Sonraki</span>
+            </button>
+        </div>
+    </div>
+    
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                        <img class="img-fluid w-100" src="img/grocery.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="display-5 mb-4">En İyi Organik Meyve ve Sebzeler</h1>
+                    <p class="mb-4">Sağlıklı bir yaşam için doğal beslenmek artık bir tercih değil, bir gereklilik! En iyi organik meyve ve sebzeler, kimyasal gübre ve ilaçlardan uzak, tamamen doğal yöntemlerle üretilir. Bu ürünler hem doğayı korur hem de sofralarınıza tazelik ve lezzet katar. Organik tarımla yetiştirilen bu besinler, vücudunuzun ihtiyacı olan vitamin ve mineralleri en saf haliyle sunar. Doğallığın keyfini çıkarın ve sağlığınıza yatırım yapın! 🌱🍎🥦</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Mevsiminde Tüketin</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Güvenilir Kaynaklardan Alışveriş Yapın</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Kendi Bahçenizi Yetiştirin</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid bg-light bg-icon my-5 py-6">
+        <div class="container">
+            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-5 mb-3">Bizi biz yapanlar</h1>
+                <p>"Taptaze, organik ve güvenilir ürünlerle sofralarınıza sağlık getiriyoruz!"</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <img class="img-fluid mb-4" src="img/icon-1.png" alt="">
+                        <h4 class="mb-3">Doğal Süreç</h4>
+                        <p class="mb-4">Ürünlerimizi doğal yöntemlerle, doğaya ve sağlığınıza dost bir şekilde yetiştiriyoruz.</p>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
+                        <h4 class="mb-3">Organik Ürünler</h4>
+                        <p class="mb-4">Doğallığı koruyarak, en saf ve katkısız ürünleri sizlerle buluşturuyoruz.</p>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <img class="img-fluid mb-4" src="img/icon-3.png" alt="">
+                        <h4 class="mb-3">Biyolojik olarak güvenli</h4>
+                        <p class="mb-4">Ürünlerimiz, biyolojik olarak güvenli ve tamamen doğaya uyumludur.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- Product Start -->
+    
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-0 gx-5 align-items-end">
+                <div class="col-lg-6">
+                    <div class="section-header text-start mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                        <h1 class="display-5 mb-3">Ürünlerimiz</h1>
+                        <p>Son derece sağlıklı ürünlerimiz sizlerle!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content">
+                <div id="tab-1" class="tab-pane fade show p-0 active">
+                    <div class="row g-4">
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/product-1.jpg" alt="">
+                                    <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Yeni!</div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Kahvaltılık Domates</a>
+                                    <span class="text-primary me-1">24.90₺</span>
+                                    <span class="text-body text-decoration-line-through">29.90₺</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/product-2.jpg" alt="">
+                                    <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Yeni</div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Ananas</a>
+                                    <span class="text-primary me-1">89.90₺</span>
+                                    <span class="text-body text-decoration-line-through">109.90₺</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/product-3.jpg" alt="">
+                                    <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Yeni</div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Biber</a>
+                                    <span class="text-primary me-1">20.90₺</span>
+                                    <span class="text-body text-decoration-line-through">21.90₺</span>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/product-4.jpg" alt="">
+                                    <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Yeni</div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Çilek</a>
+                                    <span class="text-primary me-1">49.90₺</span>
+                                    <span class="text-body text-decoration-line-through">59.90₺</span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/product-5.jpg" alt="">
+                                    <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Yeni</div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Salatalık</a>
+                                    <span class="text-primary me-1">19.00₺</span>
+                                    <span class="text-body text-decoration-line-through">29.00₺</span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/product-6.jpg" alt="">
+                                    <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Yeni</div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Taze Domates</a>
+                                    <span class="text-primary me-1">19.00₺</span>
+                                    <span class="text-body text-decoration-line-through">29.00₺</span>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/product-7.jpg" alt="">
+                                    <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Yeni</div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Patates</a>
+                                    <span class="text-primary me-1">39.00₺</span>
+                                    <span class="text-body text-decoration-line-through">49.00₺</span>
+                                </div>
+                              
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/product-8.jpg" alt="">
+                                    <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Yeni</div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Yerli Muz</a>
+                                    <span class="text-primary me-1">50.90₺</span>
+                                    <span class="text-body text-decoration-line-through">60.90₺</span>
+                                </div>
+                                 
+                            </div>
+                        </div>
+
+                        <div id="dynamicProducts" class="row g-4"></div>
+    <script>
+        function loadProducts() {
+            const products = JSON.parse(localStorage.getItem('products')) || [];
+            const productContainer = document.getElementById('dynamicProducts');
+            productContainer.innerHTML = '';
+    
+            products.forEach(product => {
+                productContainer.innerHTML += `
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="product-item">
+                            <div class="position-relative bg-light overflow-hidden">
+                                <img class="img-fluid w-100" src="${product.image}" alt="${product.name}">
+                                <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Yeni</div>
+                            </div>
+                            <div class="text-center p-4">
+                                <a class="d-block h5 mb-2" href="#">${product.name}</a>
+                                <span class="text-primary me-1">${product.price}₺</span>
+                                <span class="text-body text-decoration-line-through">${product.oldprice}</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+        }
+    
+        // Load products on page load
+        loadProducts();
+    </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Product End -->
+
+
+    <!-- feedback -->
+    <div class="container-fluid bg-primary bg-icon mt-5 py-6">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-7 wow fadeIn" data-wow-delay="0.1s">
+                    <h1 class="display-5 text-white mb-3">Geri bildirim vermek ister misiniz?</h1>
+                    <p class="text-white mb-0">Sizlerden geri bildirim almak isteriz. Yandaki butona tıklayarak bizlere mail yoluyla ulaşabilirsiniz.</p>
+                </div>
+                <div class="col-md-5 text-md-end wow fadeIn" data-wow-delay="0.5s">
+                    <a class="btn btn-lg btn-secondary rounded-pill py-3 px-5" href="contact.html">Bize ulaşın!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- feedback -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid bg-light bg-icon py-6 mb-5">
+        <div class="container">
+            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-5 mb-3">Müşteri Yorumları</h1>
+                <p>Sitemizden alışveriş yapan kullanıcılarımızın yorumları! </p>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                    <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                    <p class="mb-4"> "Aylardır buradan alışveriş yapıyorum, taze ürünlerin kalitesi gerçekten eşsiz. Üstelik fiyatlar da oldukça uygun!"</p>
+                    <div class="d-flex align-items-center">
+                        <img class="flex-shrink-0 rounded-circle" src="img/happy_customer.png" alt="">
+                        <div class="ms-3">
+                            <h5 class="mb-1">John Doe</h5>
+                            <span>Yazılım Uzmanı</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                    <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                    <p class="mb-4">"Teslimat her zaman zamanında ve paketleme çok özenli. Online olarak ihtiyacım olan her şeyi bulmak çok kolay."</p>
+                    <div class="d-flex align-items-center">
+                        <img class="flex-shrink-0 rounded-circle" src="img/another_customer.png" alt="">
+                        <div class="ms-3">
+                            <h5 class="mb-1">Doe John</h5>
+                            <span>Avukat</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                    <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                    <p class="mb-4">"Bu market sitesi hayatımı kolaylaştırdı! Organik ürün çeşitliliği harika ve müşteri hizmetleri mükemmel."</p>
+                    <div class="d-flex align-items-center">
+                        <img class="flex-shrink-0 rounded-circle" src="img/resized_image_100x100.png" alt="">
+                        <div class="ms-3">
+                            <h5 class="mb-1">Ahmet Sonuç</h5>
+                            <span>Yayıncı</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                    <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                    <p class="mb-4">"Ürün çeşitliliği ve kullanıcı dostu arayüz beni çok etkiledi. Market alışverişi hiç bu kadar kolay olmamıştı."</p>
+                    <div class="d-flex align-items-center">
+                        <img class="flex-shrink-0 rounded-circle" src="img/new_resized_image_100x100.png" alt="">
+                        <div class="ms-3">
+                            <h5 class="mb-1">Kendrick Lamar</h5>
+                            <span>Müzisyen</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Blog Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-5 mb-3">Son yaptıklarımız</h1>
+                <p>Taze ve lezzetli meyve sebzeleri masanıza taşımak için uğraşıyoruz!</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                    <div class="bg-light p-4">
+                        <a class="d-block h5 lh-base mb-4" href="">Organik meyve ve sebzeleri kendi firmamızda nasıl yetiştirebiliriz?</a>
+                        <div class="text-muted border-top pt-4">
+                            <small class="me-3"><i class="fa fa-user text-primary me-2"></i>Admin</small>
+                            <small class="me-3"><i class="fa fa-calendar text-primary me-2"></i>01 Jan, 2045</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <img class="img-fluid" src="img/blog-2.jpg" alt="">
+                    <div class="bg-light p-4">
+                        <a class="d-block h5 lh-base mb-4" href="">Buğday hasadının zaman aralığı ne olmalı?</a>
+                        <div class="text-muted border-top pt-4">
+                            <small class="me-3"><i class="fa fa-user text-primary me-2"></i>Admin</small>
+                            <small class="me-3"><i class="fa fa-calendar text-primary me-2"></i>01 Jan, 2045</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <img class="img-fluid" src="img/blog-3.jpg" alt="">
+                    <div class="bg-light p-4">
+                        <a class="d-block h5 lh-base mb-4" href="">Havuç kökleri toprakta kaç metreye kadar oluşur?</a>
+                        <div class="text-muted border-top pt-4">
+                            <small class="me-3"><i class="fa fa-user text-primary me-2"></i>Admin</small>
+                            <small class="me-3"><i class="fa fa-calendar text-primary me-2"></i>01 Jan, 2045</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h1 class="fw-bold text-primary mb-4">F<span class="text-secondary">oo</span>dy</h1>
+                    <p>Ne yerseniz ona dönüşürsünüz mottosuyla 1999'dan beri hizmetinizde!</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Adres</h4>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>Kocaeli, Türkiye</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p><i class="fa fa-envelope me-3"></i>manav@gmail.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Linkler</h4>
+                    <a class="btn btn-link" href="">Hakkımızda</a>
+                    <a class="btn btn-link" href="">Bize Ulaşın</a>
+                    <a class="btn btn-link" href="">Servislerimiz</a>
+                    <a class="btn btn-link" href="">Şartlar ve Koşullar</a>
+                    <a class="btn btn-link" href="">Destek</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Haberdar olun!</h4>
+                    <p>Son çıkan ürünlerimizden haberdar olmak için mailinizi girin!</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Mailiniz">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Gönder</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Foody</a>, Tüm hakları saklıdır.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+                        <br>Distributed By: <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
